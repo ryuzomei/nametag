@@ -1,0 +1,65 @@
+body{
+  background-color: #fdf6e3;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.title-section{
+  border-top: 2px dotted #333;
+  border-bottom: 2px dotted #333;
+  text-align: center;
+  padding: 5px 0;
+  margin-bottom: 40px;
+}
+
+.title-section h2{
+  font-weight: 400;
+  color: #333;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.card{
+  width: 18%;
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 8px;
+  height: 220px;
+}
+
+.card .header{
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 8px 5px;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.card .info{
+  text-align: left;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 8px;
+}
+
+/* Exact Colors sa screenshot mo */
+.card1{ background-color: #d6eaf8; }
+.header1{ background-color: #2e86c1; }
+
+.card2{ background-color: #d5f5e3; }
+.header2{ background-color: #1e8449; }
+
+.card3{ background-color: #fdebd0; }
+.header3{ background-color: #f39c12; }
+
+.card4{ background-color: #e8daef; }
+.header4{ background-color: #8e44ad; }
+
+.card5{ background-color: #f9d5d8; }
+.header5{ background-color: #922b21; }
